@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Books from '../components/Books/Books'
 
 const bookNo = [0, 1, 2, 3]
 
@@ -13,6 +14,9 @@ class App extends Component {
           <header className="App-header">
             Pick a book!
           </header>
+          <main>
+            <Books />
+          </main>
       </div>
       );
   }
