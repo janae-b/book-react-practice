@@ -7,6 +7,8 @@ const BookSelector = (props) => {
         {props.bookNo.map((book, idx) => 
           <button 
             key={book}
+            className={props.selectedBookIdx === idx ? 'selected' : 'color'}
+            onClick={ () => props.handleBookSelection(idx)}
           >
           {props.selectedBookIdx === idx ? `Book ${idx + 1} Selected` : `Select Book ${idx + 1}`}
           </button>
