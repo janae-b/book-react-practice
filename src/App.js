@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Books from '../components/Books/Books'
-import BookSelector from '../components/BookSelector/BookSelector'
+import Books from './components/Books/Books'
+import BookSelector from './components/BookSelector/BookSelector'
 
 const bookNo = [0, 1, 2, 3]
 
